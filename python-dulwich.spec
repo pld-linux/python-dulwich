@@ -40,6 +40,7 @@ BuildRequires:	python3-setuptools >= 1:17.1
 BuildRequires:	python3-urllib3 >= 1.24.1
 %endif
 %endif
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with doc}
